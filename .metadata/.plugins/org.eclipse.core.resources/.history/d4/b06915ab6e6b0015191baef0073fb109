@@ -1,0 +1,22 @@
+package krw;
+
+public class SayHello 
+{
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		boolean check = true;
+		int count = 1;
+		while (check)
+		{
+			// TODO Auto-generated method stub
+			System.out.println("hello world " + check);
+			
+			Thread.sleep(1000);
+			count++;
+			if (count==10) check = false;
+		}
+		
+	}
+
+}
