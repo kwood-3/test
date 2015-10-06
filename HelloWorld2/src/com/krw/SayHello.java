@@ -20,6 +20,8 @@ public class SayHello
 		}
 		System.out.println ("Goodbye you cruel world");
 		
+		//I am adding another comment to see if I can go stright to GitHub
+		
 	}
 
 }
